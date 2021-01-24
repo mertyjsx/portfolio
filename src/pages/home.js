@@ -89,7 +89,7 @@ function App({ key }) {
   }
 
   
-  if (bg2)
+  if (true)
     return (
       <div className="container2" key={key}>
         <h4 className={`name color-white`}>
