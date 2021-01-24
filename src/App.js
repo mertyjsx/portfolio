@@ -10,6 +10,7 @@ const settings = {
   dots: false,
   infinite: false,
   slidesToShow: 1,
+  
   slidesToScroll: 1,
   vertical: true,
   swipe: true,
