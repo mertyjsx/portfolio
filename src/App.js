@@ -25,16 +25,9 @@ export default class PreviousNextMethods extends Component {
       sayfa: "current",
       result:null
     };
-    this.next = this.next.bind(this);
-    this.previous = this.previous.bind(this);
+   
   }
 
-  next() {
-    this.slider.slickNext();
-  }
-  previous() {
-    this.slider.slickPrev();
-  }
 
   
 
