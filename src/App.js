@@ -41,9 +41,8 @@ export default class PreviousNextMethods extends Component {
     return (
       <div >
      
-     <Entry></Entry>
-<Portfolio></Portfolio>
-
+    
+sana noluyo
 
 
      </div>
