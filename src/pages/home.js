@@ -120,9 +120,9 @@ function App({ key }) {
           your browser
         </video>
 
-        <h2 className={`${css}`} id="entry" style={{position:"relative",top:50}}>
-          <span style={{ fontSize: "13rem", marginLeft: bg?0:20, position: "relative" ,}}>
-            <div className="textContainer">
+        <h2 className={`${css}`} id="entry" style={{position:"relative"}}>
+          <span style={{ fontSize: "13rem", marginLeft: bg?0:20, position: "relative" }}>
+            <div className="textContainer" style={{position:"relative",top:30}}>
               <span
                 style={{ marginRight: 10 }}
                 className={`${beyaz}`} 
@@ -135,7 +135,7 @@ function App({ key }) {
                 {index % 3 == 2 && <Fade bottom>Mobile</Fade>}
               </span>
             </div>
-            <span style={{ letterSpacing: -15.9 }} className={`${beyaz} responsiveTitle`} >Developer.</span>
+            <span style={{ letterSpacing: -15.9,position:"relative",top:120 }} className={`${beyaz} responsiveTitle`} >Developer.</span>
           </span>
 
           <span
@@ -144,6 +144,7 @@ function App({ key }) {
               fontSize: 22,
               marginTop: 75,
               position: "relative",
+              top:120
               
             }}
           >
