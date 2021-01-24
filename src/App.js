@@ -46,6 +46,7 @@ export default class PreviousNextMethods extends Component {
 
     return (
       <div >
+        buneeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
      <Entry></Entry>
 <Portfolio></Portfolio>
 
