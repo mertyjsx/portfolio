@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import Slider from "react-slick";
+
 
 import Entry from "./pages/home";
-import Contact from "./pages/contact"
+
 
 import Portfolio from "./slider-deneme/js/index"
-
+import "./App.css";
 const settings = {
   dots: false,
   infinite: false,
