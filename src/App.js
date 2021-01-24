@@ -30,14 +30,14 @@ export default class PreviousNextMethods extends Component {
   }
 
 
-  
+ 
 
   
 
  
   render() {
    
-
+    console.log("noluyo")
     return (
       <div >
      
