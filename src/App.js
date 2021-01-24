@@ -1,11 +1,8 @@
 import React, { Component } from "react";
 
 
-import Entry from "./pages/home";
 
 
-import Portfolio from "./slider-deneme/js/index"
-import "./App.css";
 const settings = {
   dots: false,
   infinite: false,
@@ -38,10 +35,9 @@ export default class PreviousNextMethods extends Component {
    
 
     return (
-      <div >
+      <div style={{height:300}}>
         buneeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-     <Entry></Entry>
-<Portfolio></Portfolio>
+   
 
 
 
