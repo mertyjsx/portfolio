@@ -5,12 +5,12 @@ import Entry from "./pages/home";
 
 
 import Portfolio from "./slider-deneme/js/index"
-import "./App.css";
+
 const settings = {
   dots: false,
   infinite: false,
   slidesToShow: 1,
-  
+
   slidesToScroll: 1,
   vertical: true,
   swipe: true,
