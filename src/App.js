@@ -5,7 +5,7 @@ import Entry from "./pages/home";
 import Contact from "./pages/contact"
 
 import Portfolio from "./slider-deneme/js/index"
-import "./App.css";
+
 const settings = {
   dots: false,
   infinite: false,
