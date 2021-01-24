@@ -1,0 +1,139 @@
+.box {
+  width: 100%;
+  height: 700px;
+  display: inline-block;
+  background-size: 200% 200%;
+  transition: background-position 1s;
+}
+
+.to-left {
+  background-image: linear-gradient(to left, #ffca20 50%, #0f0f53e6 0);
+  background-position: left;
+}
+.box2 {
+  width: 100%;
+  height: 570px;
+  display: inline-block;
+  background-size: 200% 200%;
+  transition: background-position 1s;
+}
+
+.to-right {
+  background-image: linear-gradient(to left, #0f0f53e6 50%, #ffca20 0);
+  background-position: left;
+}
+
+.row {
+  display: flex;
+  justify-content: row;
+  text-align: start;
+  align-items: center;
+  justify-content: center;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.centerB{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+
+  padding: 20px 40px;
+}
+
+.but{
+width: 250px;
+height: 60px;
+border-radius: 20px;
+background-color: white;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 40px;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+
+h1 {
+  width: 500px;
+
+  color: white;
+  font-size: 90px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+.left {
+  width: 65vw;
+  height: 300px;
+}
+.right {
+  width: 35vw;
+  height: 300px;
+}
+.box-bg {
+  background-position: right;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: black;
+  width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 15px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+
+
+body{
+  overflow-x: hidden;
+}
+.left{
+  left: 400px;
+}
+
+@media screen and (max-width: 980px) and (min-width: 680px) {
+  .responsiveTitle {
+   font-size: 150px;
+  }
+  .left{
+    left: 200px;
+  }
+}
+
+@media screen and (max-width: 680px)  {
+  .responsiveTitle {
+   font-size: 60px;
+   letter-spacing: normal !important;
+   padding-left: 20px;
+  }
+  .left{
+    left: 70px;
+  }
+ .leftheader{
+   height: 100% !important;
+ }
+ .name{
+   left:50px !important;
+ }
+
+}

@@ -1,0 +1,260 @@
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 !important;
+
+  font-family: "Inter", sans-serif;
+}
+body {
+ overflow-y: auto !important;
+  margin: 0 !important;
+}
+.leftHeader {
+  padding-top: 384px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100px;
+  height: 100vh;
+  position: fixed;
+  z-index: 200;
+  left: 0;
+}
+.rightHeader {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 10%;
+  mix-blend-mode: screen;
+  top: 0;
+  height: 60px;
+  z-index: 300;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 30px;
+  z-index: 400;
+  align-self: center;
+  font-size: 17px;
+  color: white;
+  font-weight: 400;
+  padding: 5px 10px;
+}
+.r-link {
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+}
+
+.tr {
+  transition: top 1000ms linear;
+}
+
+.header {
+  padding-top: 50px;
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 50px;
+  z-index: 300;
+}
+
+
+.bgl {
+  background-color: black;
+}
+.bgs {
+  background-color: red;
+}
+
+.tr-yukarı {
+  top: -100vw;
+}
+
+.tr-bottom {
+  top: 0;
+}
+
+.leftheader {
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  background-color: #141413;
+}
+.dot {
+  margin-bottom: 20px;
+  height: 6px;
+  width: 6px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.sc {
+  width: 100vw;
+  height: 100vh;
+}
+.sl {
+  width: 100vh;
+  height: 100vw;
+}
+
+.container2 {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.name {
+  position: absolute;
+  left: 120px;
+  bottom: 60px;
+  z-index: 10000;
+  letter-spacing: 4px;
+}
+
+.vid {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: unset;
+}
+
+.vid2 {
+  width: 100%;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  align-self: center;
+}
+
+.hithere {
+  font-size: 20px;
+  align-self: flex-start;
+}
+
+.rotate {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 110px !important;
+  padding-left: 140px;
+  /* Border is the new background */
+  display: inline-block;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+}
+
+.textContainer {
+  position: relative;
+  font-size: 20px;
+  display: flex;
+  top: -70px;
+  left: 13px;
+  flex-direction: row;
+}
+
+.yazı {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+  height: 100vh;
+
+  background-color: black;
+  -webkit-transition: background-color 3000ms linear;
+  -ms-transition: background-color 3000ms linear;
+  transition: background-color 3000ms linear;
+
+  font-weight: 700;
+
+  mix-blend-mode: color-burn;
+  font-size: 10rem;
+}
+.needHover:hover{
+  cursor: pointer;
+}
+
+.bg-white {
+  color: white;
+  mix-blend-mode: lighten;
+  background-color: black;
+
+  transition: background-color 0ms linear;
+}
+
+.color-white {
+  color: white;
+}
+.color-black {
+  color: black;
+}
+
+.bg-light {
+  color: white;
+  mix-blend-mode: color-burn;
+  background-color: white;
+}
+
+div {
+  position: relative;
+}
+
+/**/
+.shadow-container{
+padding:0 30px;
+
+}
+
+
+
+.shadow-card {
+  
+ width: 460px !important;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: white;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(166, 173, 201, 0.2);
+}
+
+
+.slick-slide:focus {
+  outline: none !important;
+ 
+}
+*:focus {
+  outline: 0;
+  outline: none;
+}
