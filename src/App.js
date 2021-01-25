@@ -3,7 +3,7 @@ import React, { Component } from "react";
 
 import Entry from "./pages/home";
 
-
+import "./app.css"
 import Portfolio from "./slider-deneme/js/index"
 
 const settings = {
@@ -42,6 +42,7 @@ export default class PreviousNextMethods extends Component {
       <div >
      
 <Entry></Entry>
+<Portfolio></Portfolio>
 
 
      </div>
