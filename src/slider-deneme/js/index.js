@@ -39,7 +39,8 @@ const TestArt = ({idx=0,url, ...rest}) => (<Art {...rest}>
 
   </Art>);
 
-const App = () => {
+const Slider = () => {
+  console.log("slider")
   return <div style={{width:"100vw",height:"100vh",position:"relative",overflowX:"hidden"}}>
     <Gallery>
       <TestArt idx={0} url="https://firebasestorage.googleapis.com/v0/b/sirket-site.appspot.com/o/images%2Fctb.png?alt=media&token=89ea3573-cde3-49ba-b007-fdab2f2af062"/>
@@ -62,4 +63,4 @@ const App = () => {
 
 };
 
-export default App
+export default Slider
