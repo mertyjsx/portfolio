@@ -3,7 +3,7 @@ import React, { Component } from "react";
 
 import Entry from "./pages/home";
 
-import "./app.css"
+import "./App.css"
 import Portfolio from "./slider-deneme/js/index"
 
 const settings = {
