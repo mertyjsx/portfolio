@@ -135,7 +135,7 @@ function App({ key }) {
                 {index % 3 == 2 && <Fade bottom>Mobile</Fade>}
               </span>
             </div>
-            <span style={{ letterSpacing: -15.9,position:"relative",top:120 }} className={`${beyaz} responsiveTitle`} >Developer.</span>
+            <span style={{ letterSpacing: -15.9,position:"relative",top:0 }} className={`${beyaz} responsiveTitle`} >Developer.</span>
           </span>
 
           <span
@@ -144,6 +144,7 @@ function App({ key }) {
               fontSize: 22,
               marginTop: 75,
               position: "relative",
+              
              
               
             }}
