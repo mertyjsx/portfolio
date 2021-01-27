@@ -44,7 +44,7 @@ function App({ key }) {
           return index + 1;
         });
       },
-      1500 // every 3 seconds
+      3500 // every 3 seconds
     );
     return () => {
       clearInterval(intervalId);
