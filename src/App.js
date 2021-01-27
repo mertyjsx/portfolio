@@ -42,7 +42,7 @@ export default class PreviousNextMethods extends Component {
       <div >
      
 <Entry></Entry>
-
+<Portfolio></Portfolio>
 
 
      </div>
