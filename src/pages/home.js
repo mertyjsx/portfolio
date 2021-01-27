@@ -122,7 +122,7 @@ function App({ key }) {
 
         <h2 className={`${css}`} id="entry" style={{position:"relative"}}>
           <span style={{ fontSize: "13rem", marginLeft: bg?0:20, position: "relative" }}>
-            <div className="textContainer" style={{position:"relative",top:30}}>
+            <div className="textContainer" style={{position:"relative",top:-70}}>
               <span
                 style={{ marginRight: 10 }}
                 className={`${beyaz}`} 
@@ -144,7 +144,7 @@ function App({ key }) {
               fontSize: 22,
               marginTop: 75,
               position: "relative",
-              top:120
+             
               
             }}
           >
