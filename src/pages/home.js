@@ -145,7 +145,7 @@ function App({ key }) {
               marginTop: 75,
               position: "relative",
               
-             top:70
+             top:100
               
             }}
           >
